@@ -6,6 +6,9 @@ run:
 inspect:
 	gdb ../laghos/Laghos/cuda/laghos *.core
 
+debug:
+	./tls-bug.sh 1
+
 clean:
 	/bin/rm -rf hpctoolkit-* *.core
 
