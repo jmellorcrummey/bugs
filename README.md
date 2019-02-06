@@ -1,4 +1,4 @@
-Repository containing bug reporoducersi:
+Repository containing bug reporoducers:
 
 # tls-bug-reproducer
 

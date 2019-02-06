@@ -1,3 +1,7 @@
+# Authors
+
+	Keren Zhou and John Mellor-Crummey
+
 # To build the software (necessary before reproducing the bug)
 
 	make build
