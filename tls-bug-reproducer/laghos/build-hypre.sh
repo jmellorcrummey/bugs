@@ -11,6 +11,6 @@ tar xzvf tar/hypre-2.11.2.tar.gz
 
 # build hypre
 pushd hypre-2.11.2/src
-./configure --disable-fortran --with-MPI --with-MPI-include=$MPI_ROOT/include --with-MPI-lib-dirs=$MPI_ROOT/lib
+./configure --disable-fortran --with-MPI --with-MPI-include=$MPI_ROOT/include --with-MPI-lib-dirs=$MPI_ROOT/lib CFLAGS=-g
 make -j16
 popd

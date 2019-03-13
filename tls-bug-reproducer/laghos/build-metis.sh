@@ -8,6 +8,6 @@ tar xzvf tar/metis-5.1.0.tar.gz
 
 pushd metis-5.1.0
 make config prefix=`pwd`
-make -j16 
+make -j16  CFLAGS=-g
 make install
 popd
